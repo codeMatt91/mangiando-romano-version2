@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState } from "react";
+import React, { createContext, useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Layout from "./Components/Layout";
@@ -7,7 +7,7 @@ import Restaurants from "./Components/Restaurants";
 import Login from "./Components/Login";
 import { LoginUser } from "./Interface/Utils";
 
-export const CurrentUserContext = createContext<LoginUser>({
+export const UserContext = React.createContext<LoginUser>({
   email: "",
   password: "",
   isLoggedIn: false,
@@ -21,7 +21,7 @@ function App() {
   });
 
   return (
-    <CurrentUserContext.Provider value={currentUser}>
+    <UserContext.Provider value={currentUser}>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
@@ -31,7 +31,7 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
-    </CurrentUserContext.Provider>
+    </UserContext.Provider>
   );
 }
 

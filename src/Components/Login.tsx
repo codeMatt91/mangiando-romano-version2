@@ -1,12 +1,12 @@
 import React, { useContext } from "react";
 import "../Style/StyleLogin.css";
 import "../Style/StyleBenvenuto.css";
-import { CurrentUserContext } from "../App";
+import { UserContext } from "../App";
 import Benvenuto from "./Benvenuto";
 import FormLogin from "./FormLogin";
 
 function Login() {
-  const user = useContext(CurrentUserContext);
+  const user = useContext(UserContext);
 
   return (
     <div className="select-page-container">
