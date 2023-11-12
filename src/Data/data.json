@@ -1,0 +1,38 @@
+[
+  {
+    "nome": "Pizzeria da Nino",
+    "lat": 123123123,
+    "long": 234234234,
+    "voto": 8,
+    "descrizione": "questo ristorante mi piace molto",
+    "tipologia": "Pizzeria",
+    "indirizzo":"Piazza dei tribuni 112"
+  },
+  {
+    "nome": "Pizzeria da Luigi",
+    "lat": 39458904,
+    "long": 423434,
+    "voto": 7,
+    "descrizione": "questo ristorante non mi è piaciuto per niente",
+    "tipologia": "Ristorante",
+    "indirizzo":"Collatina 443"
+  },
+    {
+    "nome": "Pizzeria da Nino",
+    "lat": 123123123,
+    "long": 234234234,
+    "voto": 8,
+    "descrizione": "questo ristorante mi piace molto",
+    "tipologia": "Pizzeria",
+    "indirizzo":"Piazza dei tribuni 112"
+  },
+  {
+    "nome": "Pizzeria da Luigi",
+    "lat": 39458904,
+    "long": 423434,
+    "voto": 7,
+    "descrizione": "questo ristorante non mi è piaciuto per niente",
+    "tipologia": "Ristorante",
+    "indirizzo":"Collatina 443"
+  }
+]

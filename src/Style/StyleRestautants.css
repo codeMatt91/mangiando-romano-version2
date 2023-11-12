@@ -1,0 +1,36 @@
+.restaurants-container {
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 15px;
+
+}
+
+.select-page-container .card-restaurant {
+    border: 1px solid white;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 1rem;
+    display:flex;
+    flex-direction: column;
+}
+
+.select-page-container .card-restaurant .card-content{
+    display: flex;
+    margin-top: 5px;
+}
+
+.select-page-container .card-restaurant .card-content .card-img{
+    width: 30%;
+    height: 5rem;
+    background-color: aqua;
+}
+
+.select-page-container .card-restaurant .card-content .card-info{
+    padding-left: 5px;
+}
+
+.select-page-container .card-restaurant .card-content .card-info .address{
+    display: flex;
+}

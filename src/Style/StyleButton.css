@@ -1,0 +1,17 @@
+.button-link {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid #fafbfc;
+    border-radius: 8px;
+    box-shadow: #043e5c;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.text-light {
+    text-decoration: none;
+    color: white;
+
+}
