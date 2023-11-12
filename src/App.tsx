@@ -17,7 +17,7 @@ function App() {
   const [currentUser, setCurrentUser] = useState<LoginUser>({
     email: "",
     password: "",
-    isLoggedIn: false,
+    isLoggedIn: true,
   });
 
   return (
